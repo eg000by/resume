@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    background-color: rgb(188, 192, 194);
+    color: rgb(0, 0, 0);
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: grey;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 25px;
+    box-shadow: #2d5ba1 15px 6px 20px 0px;
+}
+
+.info p {
+    color: rgb(112, 40, 70);
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 750px;
+    margin: auto;
+}
+
+/* .social {
+    background-color: blueviolet;
+    padding: 50px;
+    border: 10px solid rgb(65, 12, 189);
+    margin: 20px;
+} */
+.bg-yellow {
+    background-color: rgb(185, 194, 109);
+}
+
+.bg-green {
+    background-color: rgb(100, 143, 123);
+}
+
+.bg-pink {
+    background-color: rgb(146, 100, 138);
+}
+
+.card {
+    padding: 15px 5px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.card h4 {
+    margin-bottom: 25px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: rgb(84, 86, 87);
+    margin-bottom: 3px;
+}
+
+.contact {
+    text-align: center;
+}
